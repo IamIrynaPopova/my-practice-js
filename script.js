@@ -1,6 +1,6 @@
-console.log("Hello world!")
+console.log("Hello world!");
 
-// ----------------------Task 1--------------------
+// ----------------------Day 1--------------------
 
 //  Напиши скрипт, який розраховує індекс маси тіла людини. Для цього необхідно розділити вагу в кілограмах на квадрат висоти людини у метрах.
 
@@ -35,7 +35,6 @@ console.log("Hello world!")
 // метод проверки unicode
 // console.log("a".charCodeAt());
 
-
 //  ----------------- Метод slice------------------
 // Метод строк slice(startIndex, endIndex) используется для создания
 //  копии части или всей строки.Он делает копию элементов строки
@@ -44,7 +43,6 @@ console.log("Hello world!")
 // const name = "Iryna";
 // // console.log(name.slice(1,3)); //ry
 
-
 //  ----------------- Function------------------
 // function iryna() {
 //   console.log("Hello, this is my first function!");
@@ -52,12 +50,28 @@ console.log("Hello world!")
 
 // iryna();
 
-
-
 // function add(a,b,c) {
 //     console.log(`"Addition result equals ${a + b + c}"`);
 //  }
 // add(1, 1, 1);
 
+// ----------------------Day 2--------------------
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//         let message;
+//         // Change code below this line
+//         totalPrice = pricePerDroid * orderedQuantity;
+//         if (totalPrice > customerCredits) {
+//                 message = `Insufficient funds!`;
+//                 console.log(message);
+//         }
+//         else {
+//                 cash = customerCredits - totalPrice;
+//                 message = `You ordered ${orderedQuantity} droids, you have ${cash} credits left`;
+//                 console.log(message);
+//         }
+  
+//         // Change code above this line
+//         return message;
+// }
 
-
+// makeTransaction(1000, 3, 15000);
