@@ -530,6 +530,9 @@ console.log("Hello world!");
 //   { name: "Хьюстон", score: 64 },
 // ];
 
+
+
+
 // const names = students.map(student => student.name);
 // console.log(names); // ['Манго', 'Поли', 'Аякс', 'Киви', 'Хьюстон']
 
